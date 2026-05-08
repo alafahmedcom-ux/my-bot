@@ -1,3 +1,9 @@
+import discord
+from groq import Groq
+import random
+
+GROQ_API_KEY = "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"
+DISCORD_TOKEN = "MTUwMjMzODA4Nzk1NzY5MjU5Ng.G0ZXDq.oVxltQC7oyCBp7saS_M24_Ig6uRLi1k3EVqNCw"
 
 ai_client = Groq(api_key=GROQ_API_KEY)
 
